@@ -1,0 +1,27 @@
+{
+    "name": "hitaaksata/bpjs-services",
+    "description": "package briging bpjs, vclaim, pcare, aplicare, antrian",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": ">=6.0",
+        "illuminate/support": "12.0",
+        "illuminate/config": "12.1",
+        "illuminate/collections": "12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hitaaksata\\Bpjs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hitaaksata",
+            "email": "hendra.semadi@hitaaksata-dev.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
