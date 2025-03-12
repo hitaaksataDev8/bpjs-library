@@ -4,7 +4,7 @@
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": ">=6.0"
+        "guzzlehttp/guzzle": "^6.5 || ^7.0"
     },
     "license": "MIT",
     "config": {
