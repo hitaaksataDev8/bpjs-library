@@ -4,7 +4,8 @@
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": ">=6.0"
+        "guzzlehttp/guzzle": ">=6.0",
+        "hitaaksata/bpjs-services": "dev-main"
     },
     "license": "MIT",
     "autoload": {
