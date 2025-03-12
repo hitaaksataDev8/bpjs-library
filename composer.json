@@ -3,6 +3,8 @@
     "description": "package briging bpjs, vclaim, pcare, aplicare, antrian",
     "type": "library",
     "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "guzzlehttp/guzzle": ">=6.0"
     },
