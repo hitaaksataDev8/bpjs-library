@@ -23,7 +23,7 @@ class BpjsServiceProvider extends ServiceProvider
     public function boot()
     {
        $this->publishes([
-            __DIR__.'../../../config/antrol.php' => config_path('antrol.php'),
+            __DIR__.'../../config/antrol.php' => config_path('antrol.php'),
         ], 'config');
     }
 }
